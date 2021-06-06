@@ -1,8 +1,12 @@
 // Defining text characters for the empty and full hearts for you to use later.
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
+const errorMsg = document.querySelector("#modal")
 
 // Your JavaScript code goes here!
+EMPTY_HEART.addEventListner("click", (e) => {
+console.log(e)
+})
 
 
 
